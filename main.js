@@ -20,13 +20,17 @@ function divide(x, y) {
 function square(a) {
     console.log(a * a)
 }
+// Math.pow(a, 2) or (a ** 2)
+
 
 function squareRoot(x){
     console.log(Math.sqrt(x))
 }
 
-function concatenate(a, b){
-    console.log(a + b)}
+function concatenate(str1, str2){
+    console.log(str1 + str2)
+}
+
 /******************************OUR CODE BELOW******************************** */
 
 if (typeof add === 'undefined') {
